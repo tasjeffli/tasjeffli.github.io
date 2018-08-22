@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #abdbcf;
+  background: #c4deac;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2672,6 +2672,9 @@ embed {
 }
 .with-love {
   color: #ff71a8;
+}
+.backstretch {
+  opacity: 0.2;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
