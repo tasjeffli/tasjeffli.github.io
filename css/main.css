@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d0def1;
+  background: #abdbcf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2660,27 +2660,18 @@ embed {
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
 }
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
 #heart {
   animation: heartAnimate 1.33s ease-in-out infinite;
 }
 .with-love {
   color: #ff71a8;
-}
-body {
-  background: url("/images/tas.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-}
-.backstretch {
-  opacity: 0.75;
-}
-.content-wrap,
-.sidebar {
-  opacity: 0.9 !important;
-}
-.header-inner {
-  background: rgba(255,255,255,0.9) !important;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
