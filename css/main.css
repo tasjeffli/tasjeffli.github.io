@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ac9495;
+  background: #d0def1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2665,6 +2665,22 @@ embed {
 }
 .with-love {
   color: #ff71a8;
+}
+body {
+  background: url("/images/tas.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+.backstretch {
+  opacity: 0.75;
+}
+.content-wrap,
+.sidebar {
+  opacity: 0.9 !important;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9) !important;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
