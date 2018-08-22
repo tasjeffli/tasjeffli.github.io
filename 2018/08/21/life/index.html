@@ -14,10 +14,31 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-center-circle.min.css?v=1.0.2" rel="stylesheet">
 
 
 
 
+
+<script>
+    (function () {
+        if ('') {
+            if (prompt('请输入文章密码') !== '') {
+                alert('密码错误！');
+                if (history.length === 1) {
+                    location.replace("http://www.taswanxf.com"); // 这里替换成你的首页
+                } else {
+                    history.back();
+                }
+            }
+        }
+    })();
+</script>
 
 
 <meta http-equiv="Cache-Control" content="no-transform" />
@@ -53,8 +74,16 @@
 <link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
 
 
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
 
 
 
@@ -79,7 +108,7 @@
 <meta property="og:site_name" content="Jeff&#39;s Home">
 <meta property="og:description" content="此生 最羡慕三个人">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-21T09:39:01.983Z">
+<meta property="og:updated_time" content="2018-08-22T07:11:06.200Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="此生 最羡慕三个人">
 <meta name="twitter:description" content="此生 最羡慕三个人">
@@ -113,6 +142,7 @@
 
 
   <link rel="canonical" href="http://yoursite.com/2018/08/21/life/"/>
+
 
 
 
@@ -284,8 +314,9 @@
         
           <h1 class="post-title" itemprop="name headline">此生 最羡慕三个人</h1>
         
-
+          
         <div class="post-meta">
+        
           <span class="post-time">
             
               <span class="post-meta-item-icon">
@@ -572,7 +603,7 @@
 
   
 </div>
-
+<!--
 
   <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
@@ -584,6 +615,7 @@
 
   <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
 
+-->
 
 
 
